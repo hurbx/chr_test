@@ -18,7 +18,8 @@ hola = get_api_data(URL)
 sala = hola['network']['stations']
 
 for i in sala:
-    print(i['extra']['altitude'])
+    print(i['extra']['payment'])
+  # print(i['extra']['altitude'])
   # print(i['extra']['address']) accedemos a la direccion dentro de stations y extra
   # print(i['empty_slots']) accedemos directamente
   # print(i['timestamp']) imprime la fecha y la hora dentro del diccionario en stations
