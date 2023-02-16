@@ -17,8 +17,10 @@ def get_api_data(url):
 hola = get_api_data(URL)
 sala = hola['network']['stations']
 
+print(hola)
+
 for i in sala:
-    print(i['extra']['payment'])
+    pass #print(i['extra']['payment'])
   # print(i['extra']['altitude'])
   # print(i['extra']['address']) accedemos a la direccion dentro de stations y extra
   # print(i['empty_slots']) accedemos directamente
