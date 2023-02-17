@@ -2,10 +2,8 @@
 
 ### Notas.
 
-- la carpeta applications contiene la unica aplicacion de Django que generamos para este proyecto, los modelos,
-las urls y las vistas 
-- El directorio utils contiene archivos para la obtencion de la informacion de la API 
 - el archivo Main contiene el programa principal el cual inicia la obtencion de los datos y enviar estos a los modelos
+- comenzar en el archivo main y correr script , seguir las instrucciones en consola y seleccionar alguna de las opciones
 - Se una una instancia de AWS-RDS que contiene la base de Datos PostgresSQL
 
 ### Descripcion.
