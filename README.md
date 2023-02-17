@@ -19,14 +19,41 @@ las tareas son las siguientes:
 
 Dada la siguiente API pública http://api.citybik.es/v2/networks/bikesantiago (Bike Santiago)
 desarrolle los siguiente requerimientos:
+
 - Crear una función que obtenga la información presentada en la API pública (librerías
 a utilizar: requests, urllib3 o aiohttp).
-- Crear un modelo para la información obtenida.
-- Guardar en el modelo la información obtenida desde el API.
-- Opciona l. Generar vista en el administrador para visualizar la información obtenida.
-- Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
 
+Por medio de la libreria request obtuve toda la data de la API , luego de analizar la estructura json de la api con 
+postman fui creando distintas listas, las que luego transforme en un dataframe de pandas con la estructura definida para 
+los nuevos modelos de Django.Por medio de sqlAlchemy se crea la conexion con la base de datos y se envian los datos a la
+db, use este metodo por que simples queries son demasiado lentas, en cambio usando un dataframe en segundos se envian los datos
+
+- Crear un modelo para la información obtenida.
+
+analizando la informacion defini dos modelos uno llamado company y otro llamado stations, los que representan la compañia madre
+y cada una de las estaciones donde se encuentran objetos de l API , y cada estacion tiene una relacion con la compañia madre
+
+- Guardar en el modelo la información obtenida desde el API.
+
+por medio del dataframe creado envie la informacion de la API a la base de datos, , usar los modelos de Django , tambien es demasiado lento 
+
+- Opcional. Generar vista en el administrador para visualizar la información obtenida.
+
+Cree una vista personalizada en el admin de Django para visualizar la informacion obtenida de la API, como si fuera una 
+base de datos con columnas y filas, ademas de un filtro y una barra de busqueda
+ver imagen Adjunta al final del documento
+
+- Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
+genere una vista de la informacion de la base de datos usando restframework con la nueva estructura que defini en los modelos 
+ver imagen Adjunta al final del documento
+
+Creacion de una nueva vista en admin para visualizar la informacion obtenida de la API
 ![img.png](img.png)
+
+Creacion de una Api por medio de restframework para entregar la data con una nueva estructura
+![img_1.png](img_1.png)
+
+
 
 
 

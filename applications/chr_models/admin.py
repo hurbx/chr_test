@@ -14,7 +14,6 @@ class StationsAdmin(admin.ModelAdmin):
 admin.site.register(Stations, StationsAdmin)
 
 
-
 class CompanyAdmin(admin.ModelAdmin):
     list_display = ('name', 'country', 'latitude', 'longitude')
     search_fields = ('name', 'country', 'latitude', 'longitude')
