@@ -1,5 +1,13 @@
 # chr_test
 
+### Notas.
+
+- la carpeta applications contiene la unica aplicacion de Django que generamos para este proyecto, los modelos,
+las urls y las vistas 
+- El directorio utils contiene archivos para la obtencion de la informacion de la API 
+- el archivo Main contiene el programa principal el cual inicia la obtencion de los datos y enviar estos a los modelos
+- Se una una instancia de AWS-RDS que contiene la base de Datos PostgresSQL
+
 ### Descripcion.
 
 El siguiente proyecto es la realizacion de dos tareas presentadas
@@ -15,11 +23,18 @@ desarrolle los siguiente requerimientos:
 a utilizar: requests, urllib3 o aiohttp).
 - Crear un modelo para la información obtenida.
 - Guardar en el modelo la información obtenida desde el API.
-- Opcional. Generar vista en el administrador para visualizar la información obtenida.
+- Opciona l. Generar vista en el administrador para visualizar la información obtenida.
 - Opcional. Generar una vista con la información en Bootstrap 5 u otro similar.
 
+![img.png](img.png)
 
-### Desarrollo.
+
+
+
+
+
+
+
 
 
 
