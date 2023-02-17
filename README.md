@@ -3,7 +3,7 @@
 ### Notas.
 
 - el archivo Main contiene el programa principal el cual inicia la obtencion de los datos y enviar estos a los modelos
-- comenzar en el archivo main y correr script , seguir las instrucciones en consola y seleccionar alguna de las opciones
+- comenzar en el archivo main y correr script , seguir las instrucciones en consola y seleccionar alguna de las opciones del menu
 - Se una una instancia de AWS-RDS que contiene la base de Datos PostgresSQL
 
 ### Descripcion.
