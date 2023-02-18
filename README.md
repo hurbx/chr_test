@@ -7,6 +7,10 @@
 - Se una una instancia de AWS-RDS que contiene la base de Datos PostgresSQL
 - todas las tareas se pueden ejecutar desde el archivo main.py
 - iniciar la opcion 3 del menu en ultimo lugar es una gran cantidad de informacion
+- usuario de la base de datos: postgres
+- contraseña de la base de datos: postgres
+- usuario Django admin :hugo
+- contraseña Django admin :hugo
 
 ### Descripcion.
 
