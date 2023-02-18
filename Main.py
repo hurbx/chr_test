@@ -1,6 +1,12 @@
-from sqlalchemy import create_engine
-
 from utils.hola import get_api_data
+import time
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import Select
+from sqlalchemy import create_engine
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
 import pandas as pd
 
 """metodo para salir del programa"""
@@ -33,18 +39,81 @@ def generar_menu(opciones, opcion_salida):
 
 def data_view():
     print('Has elegido la opción 2')
-    print('para ver la informacion ingresada en la base de datos debe ingresar a la siguiente direccion:http://127.0.0.1:8000/db_data/\nhttp:\nLuego de haber'
-          ' ejecutado el comando python manage.py runserver')
+    print(
+        'para ver la informacion ingresada en la base de datos debe ingresar a la siguiente direccion:http://127.0.0.1:8000/db_data/\nhttp:\nLuego de haber'
+        ' ejecutado el comando python manage.py runserver')
+
+
+def table_data():
+    options = Options()
+    options.add_experimental_option("detach", True)
+
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+    driver.get('https://seia.sea.gob.cl/busqueda/buscarProyectoAction.php')
+    driver.maximize_window()
+    len_array = driver.find_elements(by=By.TAG_NAME, value='option')
+    nombre_list, tipo_list, region_list, tipologia_list, titular_list, inversion_list, fecha_list, estado_list = [], [], [], [], [], [], [], []
+    count = 1
+    data = pd.DataFrame()
+    engine = create_engine(
+        'postgresql://postgres:postgres@database-1.cglndfef2yaq.us-west-1.rds.amazonaws.com/db_chr2')
+    for i in range(len(len_array)):
+        selection = driver.find_element("xpath", "//select[@name='pagina_offset']")
+        drop = Select(selection)
+        drop.select_by_visible_text(str(count))
+        nombres = driver.find_elements(By.XPATH, '//table[@class="tabla_datos"][1]/tbody/tr/td[2]')
+        tipo = driver.find_elements(By.XPATH, '//table[@class="tabla_datos"][1]/tbody/tr/td[3]')
+        region = driver.find_elements(By.XPATH, '//table[@class="tabla_datos"][1]/tbody/tr/td[4]')
+        tipologia = driver.find_elements(By.XPATH, '//table[@class="tabla_datos"][1]/tbody/tr/td[5]')
+        titular = driver.find_elements(By.XPATH, '//table[@class="tabla_datos"][1]/tbody/tr/td[6]')
+        inversion = driver.find_elements(By.XPATH, '//table[@class="tabla_datos"][1]/tbody/tr/td[7]')
+        fecha = driver.find_elements(By.XPATH, '//table[@class="tabla_datos"][1]/tbody/tr/td[8]')
+        estado = driver.find_elements(By.XPATH, '//table[@class="tabla_datos"][1]/tbody/tr/td[9]')
+        for nombre in nombres:
+            nombre_list.append(nombre.text)
+        for tipo in tipo:
+            tipo_list.append(tipo.text)
+        for region in region:
+            region_list.append(region.text)
+        for tipologia in tipologia:
+            tipologia_list.append(tipologia.text)
+        for titular in titular:
+            titular_list.append(titular.text)
+        for inversion in inversion:
+            inversion_list.append(inversion.text)
+        for fecha in fecha:
+            fecha_list.append(fecha.text)
+        for estado in estado:
+            estado_list.append(estado.text)
+
+        data = pd.DataFrame({'name': nombre_list,
+                             'type': tipo_list,
+                             'region': region_list,
+                             'typology': tipologia_list,
+                             'titular': titular_list,
+                             'inversion': inversion_list,
+                             'date': fecha_list,
+                             'state': estado_list,
+                             })
+        print('Enviando DataFrame  a la BD')
+        json_data = data.to_json('json_files/data.json', orient='records', indent=4)
+
+        count += 1
+        time.sleep(1)
+
+        data.to_sql('chr_models_tabledata', con=engine, if_exists='append', index=False)
 
 
 def menu_principal():
     opciones = {
         '1': ('Extraccion de Datos de la API', data_extraction),
         '2': ('Ver Datos Insertados en la DB', data_view),
-        '3': ('Salir', cancel_program)
+        '3': ('Recoleccion de Datos de la Tabla', table_data),
+        '4': ('Salir', cancel_program)
     }
 
-    generar_menu(opciones, '3')
+    generar_menu(opciones, '4')
 
 
 def data_extraction():
@@ -62,7 +131,7 @@ def data_extraction():
     engine = create_engine('postgresql://postgres:postgres@database-1.cglndfef2yaq.us-west-1.rds.amazonaws.com/db_chr2')
 
     engine.execute('INSERT INTO chr_models_company (name, country, latitude, longitude)'
-    'VALUES (%s, %s, %s, %s)', (company, country, latitude, longitude))
+                   'VALUES (%s, %s, %s, %s)', (company, country, latitude, longitude))
 
     slots_list, address_list, altitude_list, ebikes_list, has_ebikes_list, normal_bike_list, last_update_list, \
         payment_list, free_bike_list, id_bike_list, latitude_list, longitude_list, name_list, time_list, quantity_list, \
@@ -156,6 +225,3 @@ def cancel_program():
 
 if __name__ == '__main__':
     menu_principal()
-
-
-

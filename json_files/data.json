@@ -1,0 +1,302 @@
+[
+    {
+        "name":"NUEVA SUBESTACI\u00d3N SECCIONADORA LOICA Y NUEVA L\u00cdNEA 2X220 KV LOICA ? PORTEZUELO",
+        "type":"DIA",
+        "region":"Sexta",
+        "typology":"b1",
+        "titular":"Colb\u00fan S.A.",
+        "inversion":"31,6785",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Ampliaci\u00f3n del Parque Fotovoltaico Faro de El Triunfo",
+        "type":"DIA",
+        "region":"Cuarta",
+        "typology":"c",
+        "titular":"FOTOVOLTAICA FARO I SPA",
+        "inversion":"3,5000",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Ampliaci\u00f3n Planta de Tratamiento de Aguas Servidas Etapa 3",
+        "type":"DIA",
+        "region":"RM",
+        "typology":"o4",
+        "titular":"BCC S.A.",
+        "inversion":"3,0000",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"FV Aldea",
+        "type":"DIA",
+        "region":"D\u00e9cimosexta",
+        "typology":"c",
+        "titular":"Marina Solar SpA",
+        "inversion":"12,0000",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Parque Fotovoltaico Cormor\u00e1n",
+        "type":"DIA",
+        "region":"S\u00e9ptima",
+        "typology":"c",
+        "titular":"PFV CORMORAN SPA",
+        "inversion":"66,0000",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Parque Fotovoltaico Chirihue",
+        "type":"DIA",
+        "region":"Cuarta",
+        "typology":"c",
+        "titular":"PFV CHIRIHUE SPA",
+        "inversion":"66,0000",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Extracci\u00f3n de Material Integral desde Pozo Lastrero Parcela 27, Comuna de La Serena",
+        "type":"DIA",
+        "region":"Cuarta",
+        "typology":"i5",
+        "titular":"ARIDOS ACONCAGUA S.A.",
+        "inversion":"0,2000",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Planta de Tratamiento de RILes Bodega Ninhue",
+        "type":"DIA",
+        "region":"D\u00e9cimosexta",
+        "typology":"o7",
+        "titular":"CORRETAJES TORRES Y CIA LTDA.",
+        "inversion":"1,4025",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Planta de Frutas Agrovic",
+        "type":"DIA",
+        "region":"Sexta",
+        "typology":"o7",
+        "titular":"Frutas Agrovic Ltda",
+        "inversion":"10,0000",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Frigor\u00edfico Chill\u00e1n Viejo ? Frut\u00edcola Olmu\u00e9",
+        "type":"DIA",
+        "region":"D\u00e9cimosexta",
+        "typology":"o7",
+        "titular":"Frut\u00edcola Olmu\u00e9 SpA",
+        "inversion":"4,6508",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Parque Solar Alfa",
+        "type":"DIA",
+        "region":"RM",
+        "typology":"c",
+        "titular":"EE Land SpA",
+        "inversion":"10,0000",
+        "date":"17\/03\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Parque E\u00f3lico Vergara",
+        "type":"DIA",
+        "region":"Novena",
+        "typology":"c",
+        "titular":"PE VERGARA SPA",
+        "inversion":"65,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Nueva L\u00ednea 2x220 kV Don Goyo - La Ruca",
+        "type":"DIA",
+        "region":"Cuarta",
+        "typology":"b1",
+        "titular":"GOYO TRANSMISORA DE ENERGIA S.A.",
+        "inversion":"21,8750",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Sistema de Tratamiento de Riles Vinos Terra Maule, Continuidad Operacional",
+        "type":"DIA",
+        "region":"S\u00e9ptima",
+        "typology":"o7",
+        "titular":"Vinos Terra Maule Compa\u00f1\u00eda Limitada",
+        "inversion":"0,1000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Biocircular Los Peumos",
+        "type":"DIA",
+        "region":"Sexta",
+        "typology":"o7",
+        "titular":"Genera4 SpA",
+        "inversion":"15,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"PSF Leo Bio",
+        "type":"DIA",
+        "region":"S\u00e9ptima",
+        "typology":"c",
+        "titular":"PSF LEOBIO SPA",
+        "inversion":"7,1683",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"?Modificaci\u00f3n CAV mejora productiva de suelo Proyecto Planta Solar San Juan",
+        "type":"DIA",
+        "region":"D\u00e9cimosexta",
+        "typology":"u",
+        "titular":"Planta Solar San Juan SpA",
+        "inversion":"0,0850",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Regularizaci\u00f3n de la planta elaboradora - envasadora de jugos, bebidas y vinos, ENVAPRO Ltda",
+        "type":"DIA",
+        "region":"S\u00e9ptima",
+        "typology":"o7",
+        "titular":"Envasadora de Alimentos Teno Ltda.",
+        "inversion":"1,2761",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Aserradero, secado y remanufactura de madera para exportaci\u00f3n. FORACTION CHILI SPA",
+        "type":"DIA",
+        "region":"Decimocuarta",
+        "typology":"m3",
+        "titular":"Foraction Chili SpA",
+        "inversion":"55,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Arboleda Solar",
+        "type":"DIA",
+        "region":"S\u00e9ptima",
+        "typology":"c",
+        "titular":"GUANAQUITO SOLAR SPA",
+        "inversion":"180,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Parque Solar Fotovoltaico San Ram\u00f3n",
+        "type":"DIA",
+        "region":"Sexta",
+        "typology":"c",
+        "titular":"ORION POWER S.A.",
+        "inversion":"20,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Planta de Separaci\u00f3n de Residuos Inorg\u00e1nicos para Reciclaje y\/o Valorizaci\u00f3n y de Trasvasije de Resi",
+        "type":"DIA",
+        "region":"RM",
+        "typology":"o5",
+        "titular":"Santa Rosa SpA",
+        "inversion":"5,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Ana Solar",
+        "type":"DIA",
+        "region":"Quinta",
+        "typology":"c",
+        "titular":"CVE Proyecto Treinta y Siete SpA",
+        "inversion":"8,7000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Planta Solar El Milagro",
+        "type":"DIA",
+        "region":"Sexta",
+        "typology":"c",
+        "titular":"PLANTA SOLAR EL MILAGRO SPA",
+        "inversion":"10,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Optimizaci\u00f3n Centro de Cultivo Pichico y Mejoras del Sistema de Tratamiento de Efluentes",
+        "type":"DIA",
+        "region":"Decimocuarta",
+        "typology":"n5",
+        "titular":"Piscicola Entre R\u00edos S:A:",
+        "inversion":"0,1000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Nueva Subestaci\u00f3n Providencia, Nueva L\u00ednea de Transmisi\u00f3n Subterr\u00e1nea 2x110 kV Vitacura - Providenci",
+        "type":"DIA",
+        "region":"RM",
+        "typology":"b1",
+        "titular":"Sociedad Transmisora Metropolitana II S.A.",
+        "inversion":"0,0004",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Parque Fotovoltaico El Roble",
+        "type":"DIA",
+        "region":"Quinta",
+        "typology":"c",
+        "titular":"Solek Chile Services SpA",
+        "inversion":"7,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Planta Fotovoltaica Salares Norte",
+        "type":"DIA",
+        "region":"Tercera",
+        "typology":"c",
+        "titular":"Minera Gold Fields Salares Norte SpA",
+        "inversion":"10,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Ampliaci\u00f3n de almacenaje de sustancias peligrosas en instalaciones de Puerto Columbo S.A. Dep\u00f3sito San Antonio",
+        "type":"DIA",
+        "region":"Quinta",
+        "typology":"\u00f14",
+        "titular":"Puerto Columbo S.A",
+        "inversion":"0,3000",
+        "date":"17\/02\/2023",
+        "state":"No Admitido a Tramitaci\u00f3n"
+    },
+    {
+        "name":"Ampliaci\u00f3n en SE Frontera y Seccionamiento L\u00ednea 2x220 kV Encuentro-Lagunas",
+        "type":"DIA",
+        "region":"Segunda",
+        "typology":"b2",
+        "titular":"TRANSELEC S.A...",
+        "inversion":"0,0013",
+        "date":"13\/01\/2023",
+        "state":"Desistido"
+    }
+]

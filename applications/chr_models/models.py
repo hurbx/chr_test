@@ -51,3 +51,20 @@ class Stations(models.Model):
                f'{self.normal_bikes} - {self.last_updated} - {self.payment}, {self.id_bike} - {self.name} - ' \
                f'{self.quantity} - {self.latitude} - {self.longitude} - {self.time_stamp} - {self.exist} - ' \
                f'{self.post_code} - {self.renting} - {self.returning} - {self.slots} - {self.uid}'
+
+
+class TableData(models.Model):
+    name = models.URLField(max_length=200, blank=True, null=True)
+    type = models.CharField(max_length=20, blank=True, null=True)
+    region = models.CharField(max_length=20, blank=True, null=True)
+    typology = models.CharField(max_length=20, blank=True, null=True)
+    titular = models.CharField(max_length=100, blank=True, null=True)
+    inversion = models.CharField(max_length=20, blank=True, null=True)
+    date = models.CharField(max_length=40, blank=True, null=True)
+    state = models.CharField(max_length=30, blank=True, null=True)
+    map = models.CharField(max_length=30, default='sin informacion', blank=True, null=True)
+
+    table = models.Manager()
+
+    def __str__(self):
+        return f'{self.id} - {self.name} - {self.type} - {self.region} - {self.typology} - {self.titular} - {self.inversion} - {self.date} - {self.map}'
