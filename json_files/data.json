@@ -298,5 +298,105 @@
         "inversion":"0,0013",
         "date":"13\/01\/2023",
         "state":"Desistido"
+    },
+    {
+        "name":"Los Lirios",
+        "type":"DIA",
+        "region":"Octava",
+        "typology":"h1",
+        "titular":"Patricio Alejandro Rodr\u00edguez Bass",
+        "inversion":"8,2368",
+        "date":"17\/02\/2023",
+        "state":"En Calificaci\u00f3n"
+    },
+    {
+        "name":"Parque Fotovoltaico Zorzalito",
+        "type":"DIA",
+        "region":"Tercera",
+        "typology":"c",
+        "titular":"AMALTEA SpA",
+        "inversion":"9,0000",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Modificaci\u00f3n Proyecto Inmobiliario Valle Noble",
+        "type":"DIA",
+        "region":"Octava",
+        "typology":"h1",
+        "titular":"Inmobiliaria Valle Noble S.A.",
+        "inversion":"8,5500",
+        "date":"17\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"MODIFICACI\u00d3N CAV MEJORA PRODUCTIVA DE SUELO PROYECTO PLANTA SOLAR SAN JUAN",
+        "type":"DIA",
+        "region":"D\u00e9cimosexta",
+        "typology":"u",
+        "titular":"Planta Solar San Juan SpA",
+        "inversion":"0,0850",
+        "date":"16\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Conjunto Arm\u00f3nico ATID",
+        "type":"DIA",
+        "region":"RM",
+        "typology":"h1",
+        "titular":"Fundacion Educacional ATID",
+        "inversion":"302,8200",
+        "date":"15\/02\/2023",
+        "state":"En Admisi\u00f3n"
+    },
+    {
+        "name":"Autorizaci\u00f3n Zonas de Acopio Transitorio de Mercanc\u00edas Peligrosas",
+        "type":"DIA",
+        "region":"Quinta",
+        "typology":"\u00f11",
+        "titular":"San Antonio Terminal Internacional S.A.",
+        "inversion":"0,2556",
+        "date":"14\/02\/2023",
+        "state":"En Calificaci\u00f3n"
+    },
+    {
+        "name":"Segunda Ampliaci\u00f3n Productiva Planta Verallia",
+        "type":"DIA",
+        "region":"Sexta",
+        "typology":"h2",
+        "titular":"Verallia Chile S.A.",
+        "inversion":"110,0000",
+        "date":"10\/02\/2023",
+        "state":"En Calificaci\u00f3n"
+    },
+    {
+        "name":"DISTRIBUCI\u00d3N DE ANHIDRIDO SULFUROSO ENTRE LAS REGIONES V, VI, VII Y METROPOLITANA",
+        "type":"DIA",
+        "region":"Interregional",
+        "typology":"\u00f11",
+        "titular":"SULFOQUIM S.A",
+        "inversion":"0,0300",
+        "date":"10\/02\/2023",
+        "state":"En Calificaci\u00f3n"
+    },
+    {
+        "name":"Proyecto Prospecciones Aida",
+        "type":"DIA",
+        "region":"Segunda",
+        "typology":"i2",
+        "titular":"MINERA PLATA CARINA SpA",
+        "inversion":"3,0000",
+        "date":"08\/02\/2023",
+        "state":"En Calificaci\u00f3n"
+    },
+    {
+        "name":"Valles de Rengo III",
+        "type":"DIA",
+        "region":"Sexta",
+        "typology":"h1",
+        "titular":"Inmobiliaria Club PY Catalina S.A.",
+        "inversion":"18,5200",
+        "date":"07\/02\/2023",
+        "state":"En Calificaci\u00f3n"
     }
 ]
