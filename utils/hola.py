@@ -6,9 +6,9 @@ from sqlalchemy import create_engine
 database_name = 'db_chr2',
 username = 'postgres',
 password = 'postgres',
-host = 'database-1.cglndfef2yaq.us-west-1.rds.amazonaws.com'
+host = 'host'
 
-engine = create_engine('postgresql://postgres:postgres@database-1.cglndfef2yaq.us-west-1.rds.amazonaws.com/db_chr2')
+engine = create_engine('postgresql://postgres:host/db_chr2')
 URL = 'http://api.citybik.es/v2/networks/bikesantiago'
 
 
