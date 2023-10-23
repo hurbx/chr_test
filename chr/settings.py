@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'db_chr2',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'database-1.cglndfef2yaq.us-west-1.rds.amazonaws.com',
+        'HOST': 'host',
         'PORT': ''
 
     }
