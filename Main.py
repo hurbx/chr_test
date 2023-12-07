@@ -57,7 +57,7 @@ def table_data():
     count = 1
     data = pd.DataFrame()
     engine = create_engine(
-        'postgresql://postgres:postgres@database-1.cglndfef2yaq.us-west-1.rds.amazonaws.com/db_chr2')
+        )
     for i in range(len(len_array)):
         selection = driver.find_element("xpath", "//select[@name='pagina_offset']")
         drop = Select(selection)
